@@ -4,24 +4,53 @@
     padding: 0;
 }
 
-.es-ejemplo {
+.em-ejemplo {
     background-color: rgb(221, 159, 65);
     padding: 16px;
     font-size: 10px;
 }
 
-.es-ejemplo p {
+.em-ejemplo p {
     font-size: 1.2em;
 }
 
-{}
+.rem-ejemplo {
+    padding: 16px;
+    background-color: green;
+    font-size: 20px;
+}
 
-{}
+.rem-ejempl p {
+    font-size: 2rem;
+}
 
-{}
+.nav-menu a {
+    color: blue;
+    text-decoration: none;
+}
 
-{}
+.elemento {
+    display: none;
+}
 
-{}
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        background-color: rgb(224, 43, 152);
+    }
+    .nav-menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu a {
+        display: none;
+    }
+    .elemento {
+        display: block !important;
+    }
+}
 
-{}
+{
+    {}
+    {}
+    {}
+}
